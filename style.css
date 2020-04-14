@@ -1,9 +1,9 @@
 
-*{
+/* { 
     padding:0;
     margin:0; 
     box-sizing: border-box;
-}
+} */
 
 body {
     background-image: url(Assets/elearningpequeña.jpeg);
@@ -52,7 +52,7 @@ body {
 {
     display: block;
     position:absolute;
-    background-color: rgb(0, 68, 100);
+    background-color: rgb(0, 35, 100);
     padding:10px;
     margin-top: 15px;
     margin-left: -15px;
@@ -65,7 +65,7 @@ body {
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li {
-    width: 180px;
+    width: 150px;
     padding: 10px;
     border-bottom: 1px dotted #fff;
     background: transparent;
@@ -95,7 +95,7 @@ body {
     display: block;
     margin-top: -40px;
     margin-left: 160px;
-    background-color: rgb(0, 68, 100);
+    background-color: rgb(0, 35, 100);
     border: solid 1px gray;
 }
 
@@ -107,7 +107,7 @@ body {
     display: block;
     margin-top: -40px;
     margin-left: 160px;
-    background-color: rgb(0, 68, 100);
+    background-color: rgb(0, 35, 100);
     border: solid 1px gray;
 }
 
