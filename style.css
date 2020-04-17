@@ -131,6 +131,7 @@ body {
         border-radius: 5px;
         background-color: #f2f2f2;
         padding: 10px;
+        z-index: -1;
       }
       
       .container-lg{
@@ -141,6 +142,7 @@ body {
         border-radius: 7px;
         background-color: #f2f2f2;
         padding: 20px;
+        z-index: -1;
     }
     }
 
