@@ -125,6 +125,7 @@ body {
 
 .card-body{
 position: absolute;
+top: 20%;
 left:25px;
 background-color: #fff;
 border: 10px;
