@@ -87,7 +87,6 @@ function getDataForUSA(jsonPkt){
         console.log("checking - " , jsonPkt.countryWise[x]);
         if(jsonPkt.countryWise[x].country == "USA")
             return jsonPkt.countryWise[x];
-
     }
 
     return null;
