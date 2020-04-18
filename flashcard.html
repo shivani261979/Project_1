@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <strong>
+            <h1 class="text-center"> Make Learning Fun by Flashcards</h1>
+        </strong>
+    </header>
+    <br>
+    <div class="container" style="color: rgb(104, 103, 103);">
+        <!-- Row for Searching Weather Dashboard -->
+        <div class="row">
+            <div class="col-lg-4" id="search-card">
+                <div class="card text-left p-2">
+                    <div class="card-header">
+                        <strong> Find a Flashcard </strong>
+                    </div>
+                    <div class="card-body">
+                        <!-- Use the search bar to find weather by city name -->
+                        <input type="text" class="form-control pull-left" id="category-name"></input>
+
+                        <button type="submit" class="btn btn-default" id="run-search" onclick="showflashCard()">
+                            <i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div style="color: red;" class="invalid-message"></div>
+                <div class="search-data">
+                    <ul id="search-list"></ul>
+                    </ul>
+                </div>
+            </div>
+    
+</body>
+</html>
