@@ -84,11 +84,9 @@ function populateBanner(totalCases, newCases){
 function getDataForUSA(jsonPkt){
 
     for(var x=0; x < jsonPkt.countryWise.length; x++){
-
         console.log("checking - " , jsonPkt.countryWise[x]);
         if(jsonPkt.countryWise[x].country == "USA")
             return jsonPkt.countryWise[x];
-
     }
 
     return null;
