@@ -37,7 +37,7 @@ a7.addEventListener('click', videoPlay7);
 //videoPlay();
 function videoPlay() {
 
-    var queryURL = "http://www.khanacademy.org/api/internal/videos/" + mathVideoArray[0];
+    var queryURL = "https://www.khanacademy.org/api/internal/videos/" + mathVideoArray[0];
 
     //download urls mp4:
     $.ajax({
